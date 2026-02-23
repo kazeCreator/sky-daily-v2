@@ -2,6 +2,57 @@
   "name": "Sky Daily",
   "description": "每日10张最美最治愈的天空",
   "version": "1.0.0",
-  "updated": "2025-01-21",
-  "images": []
+  "updated": "2026-02-23",
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=800&q=80",
+      "tags": ["日落", "晚霞", "橙色"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=800&q=80",
+      "tags": ["星空", "银河", "夜晚"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&q=80",
+      "tags": ["日出", "山脉", "金色"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&q=80",
+      "tags": ["海洋", "天空", "蓝色"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80",
+      "tags": ["极光", "夜空", "绿色"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&q=80",
+      "tags": ["黄昏", "田野", "暖色"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
+      "tags": ["湖泊", "倒影", "宁静"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800&q=80",
+      "tags": ["云海", "山脉", "壮观"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1484589065579-248aad0d628b?w=800&q=80",
+      "tags": ["彩虹", "雨后", "治愈"],
+      "source": "Unsplash"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&q=80",
+      "tags": ["松树", "星空", "夜晚"],
+      "source": "Unsplash"
+    }
+  ]
 }
