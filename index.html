@@ -38,16 +38,15 @@
       font-weight: 300;
     }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
+      column-count: 3;
+      column-gap: 16px;
       padding: 20px;
       max-width: 1400px;
       margin: 0 auto;
-      justify-content: center;
     }
     .card {
-      width: calc(33.333% - 11px);
+      break-inside: avoid;
+      margin-bottom: 16px;
       background: #fff;
       border-radius: 4px;
       overflow: hidden;
@@ -60,7 +59,6 @@
     }
     .card img {
       width: 100%;
-      height: auto;
       display: block;
     }
     .card-info {
@@ -80,10 +78,10 @@
       letter-spacing: 0.1em;
     }
     @media (max-width: 900px) {
-      .card { width: calc(50% - 8px); }
+      .gallery { column-count: 2; }
     }
     @media (max-width: 600px) {
-      .card { width: 100%; }
+      .gallery { column-count: 1; padding: 16px; }
       h1 { font-size: 1.4rem; }
     }
   </style>
@@ -119,7 +117,7 @@
       const gallery = document.getElementById('gallery');
       gallery.innerHTML = images.map((img, i) => `
         <div class="card">
-          <img src="${img.url}" alt="天空 ${i+1}" loading="lazy" onerror="this.style.display='none'">
+          <img src="${img.url}" alt="天空 ${i+1}" loading="lazy" onerror="this.parentElement.style.display='none'">
           <div class="card-info">
             <p class="card-tags">${img.tags ? img.tags.join(' · ') : ''}</p>
           </div>
